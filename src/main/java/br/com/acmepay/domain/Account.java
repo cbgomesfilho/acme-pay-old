@@ -22,4 +22,9 @@ public class Account {
     private List<Card> cards;
     private LocalDateTime created_at;
     private LocalDateTime updated_at;
+
+    public Account create() {
+        // TODO: 23/04/24
+        return this;
+    }
 }
