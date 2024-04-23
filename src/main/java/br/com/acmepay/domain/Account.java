@@ -17,9 +17,9 @@ public class Account {
     private Integer number;
     private Integer agency;
     private BigDecimal balance;
-    private LocalDateTime created_at;
-    private LocalDateTime updated_at;
     private Boolean close;
     private Customer customer;
     private List<Card> cards;
+    private LocalDateTime created_at;
+    private LocalDateTime updated_at;
 }

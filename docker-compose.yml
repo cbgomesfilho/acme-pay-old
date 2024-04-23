@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres
+    container_name: acme-pay
+    environment:
+      - POSTGRES_PASSWORD=acme-pay
+      - POSTGRES_USER=acme-pay
+      - POSTGRES_DB=acme-pay
+      - TZ=GMT
+    volumes:
+      - "./data/acme-pay/postgres:/var/lib/postgres/data"
+    ports:
+      - 5433:5432
