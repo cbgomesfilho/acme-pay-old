@@ -1,16 +1,16 @@
 package br.com.acmepay.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
+@Getter
+@Setter
+//@AllArgsConstructor
+//@NoArgsConstructor
+//@ToString
 public class Account {
 
     private Long id;
@@ -23,8 +23,4 @@ public class Account {
     private LocalDateTime created_at;
     private LocalDateTime updated_at;
 
-    public Account create() {
-        // TODO: 23/04/24
-        return this;
-    }
 }
