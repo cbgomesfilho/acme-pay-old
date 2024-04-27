@@ -13,7 +13,7 @@ import java.util.List;
 public class Customer {
 
     private Long id;
-    private String nem;
+    private String name;
     private String email;
     private String phone;
     private String document;

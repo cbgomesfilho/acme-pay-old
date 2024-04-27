@@ -43,4 +43,3 @@ create table  if not exists notifications(
 	destination_account INTEGER not null,
 	amount DECIMAL(10,2) not null
 );
-
