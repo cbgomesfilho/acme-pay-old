@@ -1,6 +1,6 @@
 package br.com.acmepay;
 
-import br.com.acmepay.domain.Account;
+import br.com.acmepay.application.domain.models.Account;
 
 public class App {
     public static void main( String[] args ) {

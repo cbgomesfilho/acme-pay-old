@@ -1,4 +1,4 @@
-package br.com.acmepay.domain;
+package br.com.acmepay.application.domain.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,7 +10,8 @@ import java.time.LocalDateTime;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Notification {
+public class Transaction {
+
     private Long id;
     private LocalDateTime data_transaction;
     private Integer source_account;

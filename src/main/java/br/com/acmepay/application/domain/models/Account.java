@@ -1,6 +1,6 @@
-package br.com.acmepay.domain;
+package br.com.acmepay.application.domain.models;
 
-import br.com.acmepay.exception.BalanceToWithdrawException;
+import br.com.acmepay.application.domain.exception.BalanceToWithdrawException;
 import lombok.*;
 
 import java.math.BigDecimal;

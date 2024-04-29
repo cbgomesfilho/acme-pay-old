@@ -1,6 +1,6 @@
-package br.com.acmepay.mapper;
+package br.com.acmepay.application.mapper;
 
-import br.com.acmepay.domain.Account;
+import br.com.acmepay.application.domain.models.Account;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
